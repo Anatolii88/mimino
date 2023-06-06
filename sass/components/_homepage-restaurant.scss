@@ -1,0 +1,98 @@
+.homepage-restaurant{
+  padding-top: 24px;
+  padding-bottom: 40px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+ url('../../images/pexels-kheng-tang-3873951\ 1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx){
+    .homepage-restaurant{
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url('../../images/pexels-kheng-tang-3873951\ 1@2x.jpg');
+    }
+  }
+
+
+.text-container{
+  
+  width: 259px;
+  margin-left: auto;
+  margin-bottom: 48px;
+}
+
+.homepage-restaurant__title{
+  margin-bottom: 12px;
+
+font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  color: var(--logo-color);
+}
+
+.homepage-restaurant__subtitle{
+  margin-bottom: 20px;
+
+font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--logo-color);
+}
+
+.homepage-restaurant__text{
+font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--text--homepage--color);
+}
+
+.homepage-restaurant-slider{
+ position: relative;
+
+}
+
+.homepage-restaurant-slider__img{
+  // margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+.homepage-restaurant-slider__picture{
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+
+
+
+
+.homepage-restaurant-slider-list {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 32px;
+}
+
+.homepage-slider__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.homepage-slider__svg {
+  width: 32px;
+  fill: var(--logo-color);
+}
+
+.position {
+  margin-bottom: 0;
+}

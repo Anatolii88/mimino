@@ -1,0 +1,13 @@
+.hero-social{
+display: flex;
+}
+
+.hero-social__item:not(:last-child){
+margin-right: 20px;
+}
+
+.hero-social__svg{
+  width: 24px;
+  height: 24px;
+  fill: var(--border-navigation-color);
+}

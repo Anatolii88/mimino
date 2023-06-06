@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="nav-header">
+        <a class="header-logo" href="./index.html">MIMIHO</a>
+
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <span class="nav-list__text">Ресторан</span>
+            <svg class="nav-list__svg">
+              <use class="icon-phone" href="./images/symbol-defs.svg#icon-Phone"></use>
+            </svg>
+          </li>
+          <li class="nav-list__item">
+            <span class="nav-list__text">Готель</span>
+            <svg class="nav-list__svg">
+              <use class="icon-phone" href="./images/symbol-defs.svg#icon-Phone"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header-navigation">
+        <div class="header-navigation-container">
+          <svg class="header-navigation__svg">
+            <use href="./images/symbol-defs.svg#icon-location-hero"></use>
+          </svg>
+          <p class="header-navigation__text">Україна, м. Полтава,</br>
+            вул. Маршала Бірюзова, 15</p>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Уникальный контент -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">MIMIHO</h1>
+        <h2 class="hero-subtitle">Ресторанно-готельний
+          комплекс</h2>
+        <p class="hero-text">СМАК ЖИТТЯ 24/7</p>
+
+        <ul class="hero-list">
+          <li class="hero-list__item">
+            <button class="hero-list__button" type="button">Забронювати столик</button>
+          </li>
+          <li class="hero-list__item">
+            <button class="hero-list__button" type="button">Забронювати номер</button>
+          </li>
+        </ul>
+
+        <ul class="hero-social">
+          <li class="hero-social__item">
+            <a href="">
+              <svg class="hero-social__svg">
+                <use href="./images/symbol-defs.svg#icon-instagram-hero"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-social__item">
+            <a href="">
+              <svg class="hero-social__svg">
+                <use href="./images/symbol-defs.svg#icon-facebook-hero"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-social__item">
+            <a href="">
+              <svg class="hero-social__svg">
+                <use href="./images/symbol-defs.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About-restaurant -->
+    <section class="about-restaurant">
+      <div class="container">
+        <p class="about-restaurant__description">Amet minim mollit non</p>
+        <h2 class="about-restaurant__title">MIMIHO</h2>
+        <p class="about-restaurant__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit
+          officia consequat duis
+          enim
+          velit
+          mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+
+        <ul class="about-restaurant-list">
+          <li class="about-restaurant-list__item">
+            <picture>
+              <source srcset="./images/home-restaurante2.webp 1x, ./images/home-restaurante2@2x.webp 2x"
+                type="image/webp">
+              <source srcset="./images/home-restaurante2.jpg 1x, ./images/home-restaurante2@2x.jpg 2x"
+                type="image/jpeg">
+              <img class="about-restaurant-list__img" src="./images/home-restaurante2.jpg" alt="">
+            </picture>
+          </li>
+          <li class="about-restaurant-list__item">
+            <div class="about-restaurant-list__container">
+              <picture>
+                <source srcset="./images/home-restorane1.webp 1x, ./images/home-restorane1@2x.webp 2x"
+                  type="image/webp">
+                <source src="./images/home-restorane1.jpg 1x, ./images/home-restorane1@2x.jpg 2x" type="image/jpeg">
+                <img src="./images/home-restorane1.jpg" alt="">
+              </picture>
+              <p class="about-restaurant-list__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                sint. Velit
+                officia consequat duis
+                enim velit
+                mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+
+        <div class="about-restaurant-slider">
+          <picture>
+            <source srcset="./images/home-slider-photo1.webp 1x, ./images/home-slide-photo1@2x.webp 2x"
+              type="image/webp">
+            <source srcset="./images/home-slider-photo1.jpg 1x, ./images/home-slide-photo1@2x.jpg 2x" type="image/jpg">
+            <img class="about-restaurant-slider__img" src="./images/home-slide-photo1.jpg" alt="">
+          </picture>
+          <picture>
+            <source srcset="./images/slider-photo.webp 1x, ./images/slider-photo@2x.webp 2x" type="image/webp">
+            <source srcset="./images/slider-photo.jpg 1x, ./images/slider-photo@2x.jpg 2x" type="image/jpg">
+            <img class="about-restaurant-slider__picture" src="./images/slider-photo.jpg" alt="">
+          </picture>
+        </div>
+
+        <ul class="about-restaurant-slider-list">
+          <li class="about-restaurant-slider-list__item">
+            <svg class="about-restaurant-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-left"></use>
+            </svg>
+          </li>
+          <li class="about-restaurant-slider-list__item">
+            <svg class="about-restaurant-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-right"></use>
+            </svg>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Homepage-restorane -->
+    <section class="homepage-restaurant">
+      <div class="container">
+        <div class="text-container">
+          <h2 class="homepage-restaurant__title">MIMIHO</h2>
+          <h3 class="homepage-restaurant__subtitle">Ресторан</h3>
+          <p class="homepage-restaurant__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            Velit officia consequat duis enim
+            velit
+            mollit.
+          </p>
+        </div>
+
+
+        <div class="homepage-restaurant-slider">
+          <picture>
+            <source srcset="./images/Frame 21.webp 1x, ./images/Frame 21@2x.webp 2x" type="image/webp">
+            <source srcset="./images/Frame 21.jpg 1x, ./images/Frame 21@2x.jpg 2x" type="image/jpg">
+            <img class="homepage-restaurant-slider__img" src="./images/Frame 21.jpg" alt="">
+          </picture>
+          <picture>
+            <source srcset="./images/Frame22.webp 1x, ./images/Frame22@2x.webp 2x" type="image/webp">
+            <source srcset="./images/Frame22.jpg 1x, ./images/Frame22@2x.jpg 2x" type="image/jpg">
+            <img class="homepage-restaurant-slider__picture" src="./images/Frame22.jpg" alt="">
+          </picture>
+        </div>
+
+        <ul class="homepage-restaurant-slider-list">
+          <li class="homepage-slider__item">
+            <svg class="homepage-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-left"></use>
+            </svg>
+          </li>
+          <li class="homepage-slider__item">
+            <svg class="homepage-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-right"></use>
+            </svg>
+          </li>
+        </ul>
+
+        <ul class="hero-list position">
+          <li class="hero-list__item">
+            <button class="hero-list__button" type="button">Забронювати столик</button>
+          </li>
+          <li class="hero-list__item">
+            <button class="hero-list__button" type="button">Забронювати номер</button>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </section>
+
+    <!-- About-room -->
+    <section class="about-room">
+      <div class="container">
+        <p class="about-room__text">Amet minim mollit non</p>
+        <h2 class="about-room__title">MIMIHO</h2>
+        <p class="about-room__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim
+          velit
+          mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+
+        <ul class="about-room-list">
+          <li class="about-room-list__item">
+            <picture>
+              <source srcset="./images/studio-homepage-room.jpg 1x, ./images/studio-homepage-room@2x.jpg 2x"
+                type="image/jpeg">
+              <source src="./images/studio-homepage-room.webp 1x, ./images/studio-homepage-room@2x.webp 2x"
+                type="image/webp">
+              <img src="./images/studio-homepage-room.jpg" alt="">
+            </picture>
+          </li>
+          <li class="about-room-list__item">
+            <p class="about-room-list__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+              sint. Velit officia consequat duis
+              enim velit
+              mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <picture>
+              <source srcset="./images/hotel-638023_1920 1.jpg 1x, ./images/hotel-638023_1920 1@2x.jpg 2x"
+                type="image/jpeg">
+              <source src="./images/hotel-638023_1920 1.webp 1x, ./images/hotel-638023_1920 1@2x.webp 2x"
+                type="image/webp">
+              <img src="./images/hotel-638023_1920 1.jpg" alt="">
+            </picture>
+          </li>
+        </ul>
+
+        <ul class="about-room-slider">
+          <li class="about-room-slider__item">
+            <picture>
+              <source
+                src="./images/white-towel-bed-decoration-bedroom-interior 1.jpg 1x, ./images/white-towel-bed-decoration-bedroom-interior 1@2x.jpg 2x"
+                type="image/jpeg">
+              <source
+                src="./images/white-towel-bed-decoration-bedroom-interior 1.webp 1x, ./images/white-towel-bed-decoration-bedroom-interior 1@2x.webp 2x"
+                type="image/webp">
+              <img class="about-room-slider__img" src="./images/white-towel-bed-decoration-bedroom-interior 1.jpg"
+                alt="">
+            </picture>
+          </li>
+          <li class="about-room-slider__item">
+            <picture>
+              <source src="./images/hotel-registration 1.jpg 1x, ./images/hotel-registration 1@2x.jpg 2x"
+                type="image/jpeg">
+              <source src="./images/hotel-registration 1.webp 1x, ./images/hotel-registration 1@2x.webp 2x"
+                type="image/webp">
+              <img src="./images/hotel-registration 1.jpg" alt="">
+            </picture>
+          </li>
+        </ul>
+
+        <ul class="about-restaurant-slider-list side">
+          <li class="about-restaurant-slider-list__item">
+            <svg class="about-restaurant-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-left"></use>
+            </svg>
+          </li>
+          <li class="about-restaurant-slider-list__item">
+            <svg class="about-restaurant-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-right"></use>
+            </svg>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Homepage-hotel -->
+    <section class="homepage-hotel">
+      <div class="container">
+        <div class="text-container">
+          <h2 class="homepage-hotel__title">MIMIHO</h2>
+          <h3 class="homepage-hotel__subtitle">Готель</h3>
+        </div>
+        <p class="homepage-hotel__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim
+          velit
+          mollit.
+        </p>
+
+
+        <div class="homepage-hotel-slider">
+          <picture>
+            <source srcset="./images/Frame 25.webp 1x, ./images/Frame 25@2x.webp 2x" type="image/webp">
+            <source srcset="./images/Frame 25.jpg 1x, ./images/Frame 25@2x.jpg 2x" type="image/jpg">
+            <img class="homepage-hotel-slider__img" src="./images/Frame 25.jpg" alt="">
+          </picture>
+          <picture>
+            <source srcset="./images/Frame 26.webp 1x, ./images/Frame 26@2x.webp 2x" type="image/webp">
+            <source srcset="./images/Frame 26.jpg 1x, ./images/Frame 26@2x.jpg 2x" type="image/jpg">
+            <img class="homepage-hotel-slider__picture" src="./images/Frame 26.jpg" alt="">
+          </picture>
+        </div>
+
+        <ul class="homepage-hotel-slider-list  homepage-hotel-slider-list--position">
+          <li class="homepage-slider__item">
+            <svg class="homepage-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-left"></use>
+            </svg>
+          </li>
+          <li class="homepage-slider__item">
+            <svg class="homepage-slider__svg" width="32px" height="32px">
+              <use href="./images/symbol-defs.svg#icon-right"></use>
+            </svg>
+          </li>
+        </ul>
+
+        <ul class="hero-list position">
+          <li class="hero-list__item">
+            <button class="hero-list__button" type="button">Забронювати столик</button>
+          </li>
+          <li class="hero-list__item">
+            <button class="hero-list__button" type="button">Забронювати номер</button>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>

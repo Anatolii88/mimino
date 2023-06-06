@@ -1,0 +1,81 @@
+.about-restaurant{
+  padding-top: 16px;
+  padding-bottom: 20px;
+  background-color: var(--home-restorane-bg-color);
+  // height: 1191px;
+}
+
+.about-restaurant__description{
+  margin-bottom: 12px;
+}
+
+.about-restaurant__title{
+  margin-bottom: 12px;
+
+  font-family: 'Film P3';
+    font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 43px;
+      letter-spacing: 0.3em;
+    color: var(--home-restorane-title-color);
+}
+
+.about-restaurant__text{
+margin-bottom: 28px;
+
+}
+
+
+
+
+.about-restaurant-list__item{
+  margin-bottom: 32px;
+}
+
+.about-restaurant-list__img{
+  
+  margin-left: auto;
+ 
+}
+
+.about-restaurant-list__text{
+  margin-left: 20px;
+  width: 163px;
+}
+
+
+.about-restaurant-list__container{
+  display: flex;
+  align-items: center;
+}
+
+
+.about-restaurant-slider{
+ position: relative;
+ margin-bottom: 20px;
+}
+
+.about-restaurant-slider__img{
+margin: 0 auto;
+}
+
+.about-restaurant-slider__picture{
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+
+
+.about-restaurant-slider-list{
+  display: flex;
+  justify-content: right;
+}
+
+.about-restaurant-slider-list__item:not(:last-child){
+margin-right: 32px;
+}
+
+.about-restaurant-slider__svg{
+  width: 32px;
+}

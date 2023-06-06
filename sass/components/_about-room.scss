@@ -1,0 +1,92 @@
+.about-room{
+  padding-top: 18px;
+  padding-bottom: 20px;
+background-color: var(--home-restorane-bg-color);
+}
+
+.about-room__text{
+  margin-bottom: 6px;
+font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+
+  color: var(--text-about-room-color);
+ 
+}
+
+.about-room__title{
+  margin-bottom: 16px;
+font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  text-align: right;
+
+  color: var(--home-restorane-title-color);
+  
+}
+
+.about-room__description{
+
+  display: block;
+  width: 242px;
+  margin-left: auto;
+  margin-bottom: 28px;
+
+font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  
+  color: var(--text-description-room);
+}
+
+.about-room-list{
+
+}
+
+.about-room-list__item{
+display: flex;
+align-items: center;
+margin-bottom: 32px;
+}
+
+
+.about-room-list__text{
+  margin-right: 21px;
+font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--text-list-room-color);
+  
+}
+
+.about-room-slider{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.about-room-slider__item:not(:last-child){
+margin-right: 20px;
+}
+
+.about-room-slider__img{
+margin-left: -15px;
+}
+
+.side{
+  justify-content: left;
+}
+
+
+
