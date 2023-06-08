@@ -54,6 +54,7 @@ img {
 
 .container {
   max-width: 414px;
+  min-width: 320px;
   outline: 2px solid tomato;
   margin: 0 auto;
   padding-left: 15px;
@@ -97,7 +98,6 @@ img {
   src: local(""), url("../fonts/FilmP3Bold.woff2") format("woff2"), url("../fonts/FilmP3Bold.woff") format("woff");
 }
 .hero {
-  max-width: 414px;
   margin: 0 auto;
   padding-top: 181px;
   padding-bottom: 20px;
