@@ -49,6 +49,7 @@ img {
   --text-about-room-color:#B4B4B4;
   --text-description-room: #7A7A7A;
   --text-list-room-color: #C79002;
+  --footer-bg-color:#0E0C07;
 }
 
 .container {
@@ -648,10 +649,11 @@ img {
 .homepage-location {
   padding-top: 36px;
   padding-bottom: 32px;
-  background-color: var(----home-restorane-bg-color);
+  background-color: var(--home-restorane-bg-color);
 }
 
 .homepage-location__title {
+  margin-bottom: 12px;
   font-family: "Film P3";
   font-style: normal;
   font-weight: 700;
@@ -662,6 +664,7 @@ img {
 }
 
 .homepage-location__text {
+  margin-bottom: 16px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -669,4 +672,169 @@ img {
   line-height: 20px;
   letter-spacing: 0.02em;
   color: var(--text-description-room);
+}
+
+.location-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.location-list {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-list-room-color);
+}
+
+.location-list__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.location-contacts__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-left: 14px;
+  padding-right: 8px;
+  border: 0.5px solid #F3C653;
+  border-radius: 2px;
+  background-color: var(--logo-color);
+}
+
+.location-contacts__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.location-contacts__item--size {
+  width: 150px;
+}
+
+.location-contacts__svg {
+  margin-right: 14px;
+  fill: var(--text-list-room-color);
+}
+
+.location-contacts__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: var(--home-restorane-title-color);
+}
+
+.location-contacts__link--position {
+  margin-right: 12px;
+}
+
+.location-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  margin-left: auto;
+  margin-bottom: 32px;
+  padding-top: 8px;
+  padding-right: 33px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  border: 0.5px solid #F3C653;
+  border-radius: 2px;
+  background-color: var(--logo-color);
+}
+
+.location-address__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: var(--home-restorane-title-color);
+}
+
+.location-address__svg {
+  margin-right: 10px;
+  fill: var(--text-list-room-color);
+}
+
+.homepage-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--footer-bg-color);
+}
+
+.homepage-footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage-footer__logo {
+  margin-right: 85px;
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  color: var(--yellow-color);
+}
+
+.homepage-footer-list {
+  margin-bottom: 32px;
+}
+
+.homepage-footer-list__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.homepage-footer-list__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--yellow-color);
+}
+
+.homepage-footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage-footer-social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.homepage-footer__svg {
+  fill: var(--border-navigation-color);
 }/*# sourceMappingURL=main.css.map */

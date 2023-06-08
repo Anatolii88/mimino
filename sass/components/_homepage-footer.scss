@@ -1,0 +1,53 @@
+.homepage-footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--footer-bg-color);
+}
+
+.homepage-footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-footer__logo{
+  margin-right: 85px;
+  font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: var(--yellow-color);
+}
+
+.homepage-footer-list{
+  margin-bottom: 32px;
+}
+
+.homepage-footer-list__item:not(:last-child){
+margin-bottom: 16px;
+}
+
+.homepage-footer-list__link{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--yellow-color);
+}
+
+.homepage-footer-social{
+  display: flex;
+  
+}
+
+.homepage-footer-social__item:not(:last-child){
+margin-right: 20px;
+}
+
+.homepage-footer__svg{
+  fill: var(--border-navigation-color);
+}
