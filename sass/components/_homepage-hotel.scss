@@ -2,7 +2,7 @@
   padding-top: 24px;
   padding-bottom: 40px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../../images/homapage-hotel.jpg');
+    url('../images/homapage-hotel.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 (min-resolution: 2dppx) {
   .homepage-hotel {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url('../../images/homapage-hotel@2x.jpg');
+        rgba(0, 0, 0, 0.65)), url('../images/homapage-hotel@2x.jpg');
   }
 }
 

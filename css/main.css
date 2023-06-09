@@ -53,12 +53,15 @@ img {
 }
 
 .container {
-  max-width: 414px;
-  min-width: 320px;
   outline: 2px solid tomato;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
 }
 
 /* montserrat-regular - latin */
@@ -102,8 +105,8 @@ img {
   padding-top: 181px;
   padding-bottom: 20px;
   background-color: rgb(133, 127, 127);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65))), url("../../images/home-mobile.jpg");
-  background-image: linear-gradient(to right rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/home-mobile.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65))), url("/../images/home-mobile.jpg");
+  background-image: linear-gradient(to right rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/../images/home-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,8 +114,8 @@ img {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65))), url("../../images/home-mobile@2x.jpg");
-    background-image: linear-gradient(to right rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/home-mobile@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65))), url("../images/home-mobile@2x.jpg");
+    background-image: linear-gradient(to right rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/home-mobile@2x.jpg");
   }
 }
 .hero-title {
@@ -379,8 +382,8 @@ img {
 .homepage-restaurant {
   padding-top: 24px;
   padding-bottom: 40px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../../images/pexels-kheng-tang-3873951 1.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/pexels-kheng-tang-3873951 1.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../images/pexels-kheng-tang-3873951 1.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/pexels-kheng-tang-3873951 1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -388,8 +391,8 @@ img {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2.0416666666666665), (min-resolution: 196dpi), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .homepage-restaurant {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../../images/pexels-kheng-tang-3873951 1@2x.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/pexels-kheng-tang-3873951 1@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../images/pexels-kheng-tang-3873951 1@2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/pexels-kheng-tang-3873951 1@2x.jpg");
   }
 }
 .text-container {
@@ -555,8 +558,8 @@ img {
 .homepage-hotel {
   padding-top: 24px;
   padding-bottom: 40px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../../images/homapage-hotel.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/homapage-hotel.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/homapage-hotel.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/homapage-hotel.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -564,8 +567,8 @@ img {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2.0416666666666665), (min-resolution: 196dpi), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .homepage-hotel {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../../images/homapage-hotel@2x.jpg");
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/homapage-hotel@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url("../images/homapage-hotel@2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/homapage-hotel@2x.jpg");
   }
 }
 .text-container {
