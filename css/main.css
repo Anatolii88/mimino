@@ -36,6 +36,8 @@ h6 {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 :root {
@@ -522,6 +524,7 @@ img {
 
 .about-room-list__text {
   margin-right: 21px;
+  width: 163px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
