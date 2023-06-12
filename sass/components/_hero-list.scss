@@ -12,6 +12,7 @@
   }
 }
 
+
 .hero-list__item:not(:last-child){
 margin-bottom: 24px;
     @media screen and (min-width: 1024px){
@@ -24,9 +25,7 @@ margin-bottom: 24px;
 .hero-list__button{
   padding: 14px 24px;
   margin: 0;
-  border: 2px solid var(--logo-color);
-  border-radius: 25px;
-  background-color: transparent;
+ 
   color: var(--yellow-color);
 font-family: 'Montserrat';
   font-style: normal;
@@ -35,7 +34,25 @@ font-family: 'Montserrat';
   line-height: 20px;
   letter-spacing: 0.02em;
   cursor: pointer;
+
+  background-color: transparent;
+  border: 2px solid var(--logo-color);
+  border-radius: 25px;
+
+  transition: background-color 350ms ease, border 350ms ease;
+
+  &:hover,:focus{
+  background-color: var(--logo-color);
+  border: 2px solid var(--yellow-color);
+  
+  }
 }
+
+
+  
+  
+
+
 
 
 
