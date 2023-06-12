@@ -6,16 +6,29 @@
 
 .nav-list__item{
   display: flex;
+
+  @media screen and (min-width: 1024px){
+    align-items: center;
+  }
+
   
 }
 .nav-list__item:not(:last-child){
   margin-right: 26px;
+
+  @media screen and (min-width:1024px){
+    margin-right: 72px;
+  }
 }
 
 .nav-list__svg{
   width: 12px;
     height: 20px;
     fill: var(--yellow-color);
+
+    @media screen and (min-width:1024px) {
+      margin-right: 10px;
+    }
 }
 
 .nav-list__text{
@@ -27,4 +40,41 @@ font-family: 'Montserrat';
   line-height: 20px;
   letter-spacing: 0.02em;
   color: var(--yellow-color);
+
+  @media screen and (min-width: 1024px){
+    margin-right: 32px;
+    
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+  }
+}
+
+.nav-list__link{
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: 1024px){
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border: 1px solid var(--border-navigation-color);
+  }
+}
+
+.nav-list__number{
+  display: none;
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: var(--logo-color);
+
+  @media screen and(min-width: 1024px){
+    display: inline;
+    
+  }
 }

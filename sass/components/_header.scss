@@ -5,6 +5,11 @@
   left: 0;
   padding-top: 16px;
 
+  @media screen and (min-width: 1024px){
+    padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
 }
 
 .header-logo{
@@ -15,4 +20,11 @@ font-family: 'Film P3';
   line-height: 39px;
   letter-spacing: 0.3em;
   color: var(--logo-color);
+
+  @media screen and (min-width: 1024px){
+    
+      font-size: 40px;
+      line-height: 43px;
+      letter-spacing: 0.3em;
+  }
 }
