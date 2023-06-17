@@ -70,6 +70,10 @@ font-family: 'Montserrat';
 
 .about-restaurant-list__item{
   margin-bottom: 32px;
+
+  @media screen and (min-width: 1024px){
+    margin-bottom: -32px;
+  }
 }
 
 .about-restaurant-list__img{
@@ -115,16 +119,31 @@ font-family: 'Montserrat';
 .about-restaurant-slider{
  position: relative;
  margin-bottom: 20px;
+
+ @media screen and (min-width: 1024px){
+  display: flex;
+  justify-content: right;
+  margin-bottom: 32px;
+ }
 }
 
 .about-restaurant-slider__img{
 margin: 0 auto;
+@media screen and (min-width: 1024px){
+  margin-right: 40px;
+}
 }
 
 .about-restaurant-slider__picture{
   position: absolute;
   top: 0;
   right: -15px;
+
+  @media screen and (min-width: 1024px){
+    position: relative;
+    right: 0;
+
+  }
 }
 
 

@@ -149,8 +149,15 @@
             <div class="about-restaurant-list__container">
               <picture>
                 <source srcset="./images/home-restorane1.webp 1x, ./images/home-restorane1@2x.webp 2x"
-                  type="image/webp">
-                <source src="./images/home-restorane1.jpg 1x, ./images/home-restorane1@2x.jpg 2x" type="image/jpeg">
+                  media="(max-width: 1023px)" type="image/webp">
+                <source src="./images/home-restorane1.jpg 1x, ./images/home-restorane1@2x.jpg 2x"
+                  media="(max-width: 1023px)" type="image/jpeg">
+                <source
+                  srcset="./images/tablet/pexels-oruri-jacome-10456027-1.jpg 1x, ./images/tablet/pexels-oruri-jacome-10456027-1@2x.jpg 2x"
+                  media="(max-width: 1280px)" type="image/jpeg">
+                <source
+                  srcset="./images/tablet/pexels-oruri-jacome-10456027-1.webp 1x, ./images/tablet/pexels-oruri-jacome-10456027-1@2x.webp 2x"
+                  media="(max-width: 1280px)" type="image/webp">
                 <img class="about-restaurant-tablet__img" src="./images/home-restorane1.jpg" alt="">
               </picture>
               <p class="about-restaurant-list__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -167,13 +174,28 @@
         <div class="about-restaurant-slider">
           <picture>
             <source srcset="./images/home-slider-photo1.webp 1x, ./images/home-slide-photo1@2x.webp 2x"
-              type="image/webp">
-            <source srcset="./images/home-slider-photo1.jpg 1x, ./images/home-slide-photo1@2x.jpg 2x" type="image/jpg">
+              media="(max-width: 1023px)" type="image/webp">
+            <source srcset="./images/home-slider-photo1.jpg 1x, ./images/home-slide-photo1@2x.jpg 2x"
+              media="(max-width: 1023px)" type="image/jpg">
+            <source
+              srcset="./images/tablet/pexels-helena-lopes-696218_1.webp 1x, ./images/tablet/pexels-helena-lopes-696218_1@2x.webp 2x"
+              media="(min-width: 1024px)" />
+            <source
+              srcset="./images/tablet/pexels-helena-lopes-696218_1.jpg 1x, ./images/tablet/pexels-helena-lopes-696218_1@2x.jpg 2x"
+              media="(min-width: 1024px)">
             <img class="about-restaurant-slider__img" src="./images/home-slide-photo1.jpg" alt="">
           </picture>
           <picture>
-            <source srcset="./images/slider-photo.webp 1x, ./images/slider-photo@2x.webp 2x" type="image/webp">
-            <source srcset="./images/slider-photo.jpg 1x, ./images/slider-photo@2x.jpg 2x" type="image/jpg">
+            <source srcset="./images/slider-photo.webp 1x, ./images/slider-photo@2x.webp 2x" media="(max-width: 1023px)"
+              type="image/webp">
+            <source srcset="./images/slider-photo.jpg 1x, ./images/slider-photo@2x.jpg 2x" media="(max-width: 1023px)"
+              type="image/jpg">
+            <source
+              srcset="./images/tablet/pexels-mat-brown-1395967_1.jpg 1x, ./images/tablet/pexels-mat-brown-1395967_1@2x.jpg 2x,"
+              media="(min-width: 1024px)" type="image/jpg">
+            <source
+              srcset="./images/tablet/pexels-mat-brown-1395967_1.webp 1x, ./images/tablet/pexels-mat-brown-1395967_1@2x.webp 2x,"
+              media="(min-width: 1024px)" type="image/webp">
             <img class="about-restaurant-slider__picture" src="./images/slider-photo.jpg" alt="">
           </picture>
         </div>
@@ -193,6 +215,7 @@
 
       </div>
     </section>
+
 
     <!-- Homepage-restorane -->
     <section class="homepage-restaurant">
