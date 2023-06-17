@@ -17,12 +17,37 @@ background-size: cover;
     }
   }
 
+  @media screen and (min-width: 414px){
+    .homepage-restaurant{
+      padding-top: 48px;
+      padding-bottom: 40px;
+      background-image: linear-gradient(to right,rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0.76) ), url('../images/tablet/pexels-kheng-tang-38739511.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx){
+      .homepage-restaurant{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76),
+              rgba(0, 0, 0, 0.76)), url('../images/tablet/pexels-kheng-tang-38739511@2x.jpg');
+      }
+    }
+      
+  }
 
 .text-container{
-  
   width: 259px;
   margin-left: auto;
   margin-bottom: 48px;
+  @media screen and (min-width: 1024px){
+    width: 610px;
+    margin: 0 auto;
+
+  }
+
 }
 
 .homepage-restaurant__title{
@@ -35,6 +60,12 @@ font-family: 'Film P3';
   line-height: 43px;
   letter-spacing: 0.3em;
   color: var(--logo-color);
+
+  @media screen and (min-width: 1024px){
+      font-size: 64px;
+      line-height: 69px;
+      
+  }
 }
 
 .homepage-restaurant__subtitle{
@@ -47,6 +78,12 @@ font-family: 'Montserrat';
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+
+  @media screen and (min-width: 1024px){
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.02em;
+  }
 }
 
 .homepage-restaurant__text{
@@ -57,22 +94,48 @@ font-family: 'Montserrat';
   line-height: 15px;
   letter-spacing: 0.02em;
   color: var(--text--homepage--color);
+
+  @media screen and (min-width: 1024px){
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+  }
 }
 
 .homepage-restaurant-slider{
  position: relative;
-
+@media screen and (min-width: 1024px){
+  display: flex;
+  margin-bottom: 24px;
+}
 }
 
 .homepage-restaurant-slider__img{
   // margin-left: 20px;
   margin-bottom: 16px;
+  @media screen and (min-width: 1024px){
+    margin-bottom: 0;
+    margin-right: 34px;
+  }
+
 }
 
 .homepage-restaurant-slider__picture{
   position: absolute;
   top: 0;
   right: -15px;
+  @media screen and (min-width: 1024px){
+    position: relative;
+    right: 0;
+    margin-right: 34px;
+  }
+}
+
+.tablet-img{
+  display: none;
+  @media screen and (min-width: 1024px){
+    display: block;
+  }
 }
 
 
@@ -82,6 +145,10 @@ font-family: 'Montserrat';
   display: flex;
   justify-content: left;
   margin-bottom: 32px;
+  @media screen and (min-width: 1024px){
+    margin-bottom: 0;
+    margin-left: 234px;
+  }
 }
 
 .homepage-slider__item:not(:last-child) {
@@ -93,6 +160,79 @@ font-family: 'Montserrat';
   fill: var(--logo-color);
 }
 
+
+
+.homepage-order {
+  display: none;
+  text-align: center;
+  margin-bottom: 58px;
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 0;
+    margin-right: 29px;
+  }
+}
+
+
+.homepage-order__item:not(:last-child) {
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1024px) {
+    margin-right: 0px;
+    margin-bottom: 16px;
+
+  }
+}
+
+.homepage-order__button {
+  padding: 14px 24px;
+  margin: 0;
+
+  color: var(--yellow-color);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+
+  background-color: transparent;
+  border: 2px solid var(--logo-color);
+  border-radius: 25px;
+
+  transition: background-color 350ms ease, border 350ms ease;
+
+  &:hover,
+  :focus {
+    background-color: var(--logo-color);
+    border: 2px solid var(--yellow-color);
+
+  }
+}
+
+.box-geometry{
+padding: 14px 30px;
+}
+
+
+
+
+
 .position {
   margin-bottom: 0;
+  @media screen and (min-width: 1024px){
+    display: none;
+  }
 }
+
+
+
+
+
+
+

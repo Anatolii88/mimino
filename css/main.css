@@ -715,10 +715,33 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/pexels-kheng-tang-3873951 1@2x.jpg");
   }
 }
+@media screen and (min-width: 414px) {
+  .homepage-restaurant {
+    padding-top: 48px;
+    padding-bottom: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.76)), to(rgba(0, 0, 0, 0.76))), url("../images/tablet/pexels-kheng-tang-38739511.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url("../images/tablet/pexels-kheng-tang-38739511.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 414px) and (min-device-pixel-ratio: 2), screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2.0416666666666665), screen and (min-width: 414px) and (min-resolution: 196dpi), screen and (min-width: 414px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 414px) and (min-resolution: 2dppx) {
+  .homepage-restaurant {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.76)), to(rgba(0, 0, 0, 0.76))), url("../images/tablet/pexels-kheng-tang-38739511@2x.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url("../images/tablet/pexels-kheng-tang-38739511@2x.jpg");
+  }
+}
 .text-container {
   width: 259px;
   margin-left: auto;
   margin-bottom: 48px;
+}
+@media screen and (min-width: 1024px) {
+  .text-container {
+    width: 610px;
+    margin: 0 auto;
+  }
 }
 
 .homepage-restaurant__title {
@@ -731,6 +754,12 @@ img {
   letter-spacing: 0.3em;
   color: var(--logo-color);
 }
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant__title {
+    font-size: 64px;
+    line-height: 69px;
+  }
+}
 
 .homepage-restaurant__subtitle {
   margin-bottom: 20px;
@@ -742,6 +771,13 @@ img {
   letter-spacing: 0.02em;
   color: var(--logo-color);
 }
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant__subtitle {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+  }
+}
 
 .homepage-restaurant__text {
   font-family: "Montserrat";
@@ -752,19 +788,56 @@ img {
   letter-spacing: 0.02em;
   color: var(--text--homepage--color);
 }
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant__text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+  }
+}
 
 .homepage-restaurant-slider {
   position: relative;
 }
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 24px;
+  }
+}
 
 .homepage-restaurant-slider__img {
   margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant-slider__img {
+    margin-bottom: 0;
+    margin-right: 34px;
+  }
 }
 
 .homepage-restaurant-slider__picture {
   position: absolute;
   top: 0;
   right: -15px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant-slider__picture {
+    position: relative;
+    right: 0;
+    margin-right: 34px;
+  }
+}
+
+.tablet-img {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .tablet-img {
+    display: block;
+  }
 }
 
 .homepage-restaurant-slider-list {
@@ -776,6 +849,12 @@ img {
           justify-content: left;
   margin-bottom: 32px;
 }
+@media screen and (min-width: 1024px) {
+  .homepage-restaurant-slider-list {
+    margin-bottom: 0;
+    margin-left: 234px;
+  }
+}
 
 .homepage-slider__item:not(:last-child) {
   margin-right: 32px;
@@ -786,8 +865,75 @@ img {
   fill: var(--logo-color);
 }
 
+.homepage-order {
+  display: none;
+  text-align: center;
+  margin-bottom: 58px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-order {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-bottom: 0;
+    margin-right: 29px;
+  }
+}
+
+.homepage-order__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-order__item:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+}
+
+.homepage-order__button {
+  padding: 14px 24px;
+  margin: 0;
+  color: var(--yellow-color);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid var(--logo-color);
+  border-radius: 25px;
+  -webkit-transition: background-color 350ms ease, border 350ms ease;
+  transition: background-color 350ms ease, border 350ms ease;
+}
+.homepage-order__button:hover,
+.homepage-order__button :focus {
+  background-color: var(--logo-color);
+  border: 2px solid var(--yellow-color);
+}
+
+.box-geometry {
+  padding: 14px 30px;
+}
+
 .position {
   margin-bottom: 0;
+}
+@media screen and (min-width: 1024px) {
+  .position {
+    display: none;
+  }
 }
 
 .about-room {
