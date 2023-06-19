@@ -2,6 +2,12 @@
   padding-top: 18px;
   padding-bottom: 20px;
 background-color: var(--home-restorane-bg-color);
+
+@media screen and (min-width: 1024px){
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 32px;
+}
 }
 
 .about-room__text{
@@ -14,6 +20,12 @@ font-family: 'Times New Roman';
   text-align: right;
 
   color: var(--text-about-room-color);
+
+  @media screen and (min-width: 1024px){
+    margin-bottom: 4px;
+      font-size: 32px;
+      line-height: 37px;
+  }
  
 }
 
@@ -28,6 +40,13 @@ font-family: 'Film P3';
   text-align: right;
 
   color: var(--home-restorane-title-color);
+
+  @media screen and (min-width: 1024px){
+    margin-bottom: 24px;
+      font-size: 64px;
+      line-height: 69px;
+      letter-spacing: 0.3em;
+  }
   
 }
 
@@ -46,16 +65,39 @@ font-family: 'Montserrat';
   letter-spacing: 0.02em;
   
   color: var(--text-description-room);
+
+  @media screen and (min-width: 1024px){
+    width: 419px;
+    margin-bottom: 142px;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+
+  }
 }
 
 .about-room-list{
-
+// outline: 2px solid greenyellow;
 }
 
 .about-room-list__item{
 display: flex;
 align-items: center;
 margin-bottom: 32px;
+@media screen and (min-width: 1024px){
+  justify-content: right;
+  margin-bottom: 0;
+}
+}
+
+
+
+.about-room__img{
+  @media screen and(min-width: 1024px){
+    position: absolute;
+    top: -24px;
+    left: 112px;
+  }
 }
 
 
@@ -69,20 +111,38 @@ font-family: 'Montserrat';
   line-height: 15px;
   letter-spacing: 0.02em;
   color: var(--text-list-room-color);
+
+  @media screen and (min-width: 1024px){
+    width: 312px;
+    margin-right: 48px;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+  }
   
 }
 
 .about-room-slider{
   display: flex;
   margin-bottom: 20px;
+  @media screen and (min-width: 1024px) {
+      margin-top: -26px;
+      margin-bottom: 32px;
+    }
 }
 
 .about-room-slider__item:not(:last-child){
 margin-right: 20px;
+margin-left: -15px;
+@media screen and(min-width: 1024px){
+  margin-left: 0;
+  margin-right: 40px;
+}
 }
 
 .about-room-slider__img{
-margin-left: -15px;
+// margin-left: -15px;
+
 }
 
 .side{

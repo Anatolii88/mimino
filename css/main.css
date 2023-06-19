@@ -941,6 +941,13 @@ img {
   padding-bottom: 20px;
   background-color: var(--home-restorane-bg-color);
 }
+@media screen and (min-width: 1024px) {
+  .about-room {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
+}
 
 .about-room__text {
   margin-bottom: 6px;
@@ -951,6 +958,13 @@ img {
   line-height: 23px;
   text-align: right;
   color: var(--text-about-room-color);
+}
+@media screen and (min-width: 1024px) {
+  .about-room__text {
+    margin-bottom: 4px;
+    font-size: 32px;
+    line-height: 37px;
+  }
 }
 
 .about-room__title {
@@ -963,6 +977,14 @@ img {
   letter-spacing: 0.3em;
   text-align: right;
   color: var(--home-restorane-title-color);
+}
+@media screen and (min-width: 1024px) {
+  .about-room__title {
+    margin-bottom: 24px;
+    font-size: 64px;
+    line-height: 69px;
+    letter-spacing: 0.3em;
+  }
 }
 
 .about-room__description {
@@ -978,6 +1000,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-description-room);
 }
+@media screen and (min-width: 1024px) {
+  .about-room__description {
+    width: 419px;
+    margin-bottom: 142px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+  }
+}
 
 .about-room-list__item {
   display: -webkit-box;
@@ -987,6 +1018,22 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .about-room-list__item {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-room__img {
+    position: absolute;
+    top: -24px;
+    left: 112px;
+  }
 }
 
 .about-room-list__text {
@@ -1000,6 +1047,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-list-room-color);
 }
+@media screen and (min-width: 1024px) {
+  .about-room-list__text {
+    width: 312px;
+    margin-right: 48px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+  }
+}
 
 .about-room-slider {
   display: -webkit-box;
@@ -1007,13 +1063,22 @@ img {
   display: flex;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .about-room-slider {
+    margin-top: -26px;
+    margin-bottom: 32px;
+  }
+}
 
 .about-room-slider__item:not(:last-child) {
   margin-right: 20px;
-}
-
-.about-room-slider__img {
   margin-left: -15px;
+}
+@media screen and (min-width: 1024px) {
+  .about-room-slider__item:not(:last-child) {
+    margin-left: 0;
+    margin-right: 40px;
+  }
 }
 
 .side {
