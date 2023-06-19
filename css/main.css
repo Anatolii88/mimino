@@ -623,6 +623,7 @@ img {
 @media screen and (min-width: 1024px) {
   .about-restaurant-list__text {
     width: 312px;
+    margin-left: 48px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.02em;
