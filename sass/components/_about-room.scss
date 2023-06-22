@@ -76,9 +76,9 @@ font-family: 'Montserrat';
   }
 }
 
-.about-room-list{
-// outline: 2px solid greenyellow;
-}
+// .about-room-list{
+// // outline: 2px solid greenyellow;
+// }
 
 .about-room-list__item{
 display: flex;
@@ -93,7 +93,7 @@ margin-bottom: 32px;
 
 
 .about-room__img{
-  @media screen and(min-width: 1024px){
+  @media screen and (min-width: 1024px){
     position: absolute;
     top: -24px;
     left: 112px;
@@ -134,16 +134,16 @@ font-family: 'Montserrat';
 .about-room-slider__item:not(:last-child){
 margin-right: 20px;
 margin-left: -15px;
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
   margin-left: 0;
   margin-right: 40px;
 }
 }
 
-.about-room-slider__img{
-// margin-left: -15px;
+// .about-room-slider__img{
+// // margin-left: -15px;
 
-}
+// }
 
 .side{
   justify-content: left;

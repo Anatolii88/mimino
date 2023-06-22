@@ -1144,17 +1144,18 @@ img {
 }
 
 .homepage-hotel-slider {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage-hotel-slider__item:first-child {
+  margin-left: -15px;
+  margin-right: 20px;
 }
 
 .homepage-hotel-slider__img {
   margin-bottom: 16px;
-}
-
-.homepage-hotel-slider__picture {
-  position: absolute;
-  top: 0;
-  right: -15px;
 }
 
 .homepage-hotel-slider-list {
@@ -1171,6 +1172,7 @@ img {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  margin-right: 20px;
 }
 
 .homepage-slider__item:not(:last-child) {

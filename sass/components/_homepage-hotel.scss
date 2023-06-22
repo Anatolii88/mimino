@@ -23,7 +23,7 @@
 }
 
 .homepage-hotel__title {
-  
+ 
   margin-bottom: 12px;
 
   font-family: 'Film P3';
@@ -36,7 +36,7 @@
 }
 
 .homepage-hotel__subtitle {
-  
+
   margin-bottom: 20px;
 
   font-family: 'Montserrat';
@@ -64,21 +64,26 @@
 }
 
 .homepage-hotel-slider {
-  position: relative;
+display: flex;
+// justify-content: space-between;
+}
 
-
+.homepage-hotel-slider__item:first-child{
+margin-left: -15px;
+margin-right: 20px;
 }
 
 .homepage-hotel-slider__img {
   
   margin-bottom: 16px;
+
 }
 
-.homepage-hotel-slider__picture {
-  position: absolute;
-  top: 0;
-  right: -15px;
-}
+// .homepage-hotel-slider__picture {
+//   // position: absolute;
+//   // top: 0;
+//   // right: -15px;
+// }
 
 
 
@@ -91,6 +96,7 @@
 
 .homepage-hotel-slider-list--position{
   justify-content: right;
+  margin-right: 20px;
 }
 
 .homepage-slider__item:not(:last-child) {
