@@ -2,6 +2,12 @@
   padding-top: 36px;
   padding-bottom: 32px;
   background-color: var(--home-restorane-bg-color);
+
+  @media screen and (min-width: 1024px){
+    position: relative;
+    padding-top: 69px;
+    padding-bottom: 40px;
+  }
 }
 
 .homepage-location__title{
@@ -13,6 +19,9 @@ font-family: 'Film P3';
   line-height: 43px;
   letter-spacing: 0.3em;
   color: var(--home-restorane-title-color);
+  @media screen and (min-width: 1024px){
+    margin-bottom: 8px;
+  }
 }
 
 .homepage-location__text{
@@ -24,6 +33,9 @@ font-family: 'Montserrat';
   line-height: 20px;
   letter-spacing: 0.02em;
   color: var(--text-description-room);
+  @media screen and (min-width: 1024px){
+    margin-bottom: 52px;
+  }
 }
 
 .location-box{
@@ -32,6 +44,10 @@ align-items: center;
 justify-content: space-between;
 
 margin-bottom: 16px;
+
+@media screen and (min-width: 1024px){
+  justify-content: flex-start;
+}
 }
 
 .location-list{
@@ -46,11 +62,16 @@ margin-bottom: 16px;
 
 .location-list__item:not(:last-child){
   margin-bottom: 32px;
+  @media screen and (min-width: 1024px){
+    margin-bottom: 8px;
+  }
 }
 
-// .location-contacts{
-
-// }
+.location-contacts{
+@media screen and (min-width: 1024px){
+  display: none;
+}
+}
 
 .location-contacts__item{
   display: flex;
@@ -67,6 +88,15 @@ margin-bottom: 16px;
 
 .location-contacts__item:not(:last-child){
   margin-bottom: 16px;
+  @media screen and (min-width: 1024px){
+    margin-bottom: 24px;
+  }
+}
+
+.location-contacts__item:last-child{
+  @media screen and (min-width: 1024px){
+    margin-bottom: 48px;
+  }
 }
 
 .location-contacts__item--size{
@@ -106,9 +136,16 @@ margin-bottom: 16px;
   border: 0.5px solid #F3C653;
   border-radius: 2px;
   background-color: var(--logo-color);
+
+  @media screen and (min-width: 1024px){
+    width: 285px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 }
 
 .location-address__text{
+  width: 150px;
   font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -116,9 +153,32 @@ margin-bottom: 16px;
     line-height: 20px;
     letter-spacing: 0.01em;
     color: var(--home-restorane-title-color);
+    @media screen and (min-width: 1024px){
+      width: 233px;
+    }
 }
 
 .location-address__svg{
   margin-right: 10px;
   fill: var(--text-list-room-color);
+}
+
+.location_img{
+  @media screen and (min-width: 1024px){
+
+  position: absolute;
+  top: 69px;
+  left: 442px;
+  width: 535px;
+  height: 412px;
+  border: 2px solid black;
+  }
+  
+}
+
+.tablet-version{
+  display: none;
+  @media screen and (min-width: 1024px){
+    display: flex;
+  }
 }
