@@ -1097,6 +1097,12 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 1024px) {
+  .homepage-hotel {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
+}
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2.0416666666666665), (min-resolution: 196dpi), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .homepage-hotel {
@@ -1106,6 +1112,11 @@ img {
 }
 .text-container {
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .text-container {
+    text-align: right;
+  }
 }
 
 .homepage-hotel__title {
@@ -1142,6 +1153,12 @@ img {
   letter-spacing: 0.02em;
   color: var(--text--homepage--color);
 }
+@media screen and (min-width: 1024px) {
+  .homepage-hotel__text {
+    width: 549px;
+    margin-left: 250px;
+  }
+}
 
 .homepage-hotel-slider {
   display: -webkit-box;
@@ -1175,6 +1192,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .homepage-hotel-slider__img {
@@ -1201,6 +1221,11 @@ img {
       -ms-flex-pack: right;
           justify-content: right;
   margin-right: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-hotel-slider-list--position {
+    margin-right: 275px;
+  }
 }
 
 .homepage-slider__item:not(:last-child) {
