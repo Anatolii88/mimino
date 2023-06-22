@@ -1147,15 +1147,43 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: -15px;
+  margin-right: 32px;
 }
 
-.homepage-hotel-slider__item:first-child {
-  margin-left: -15px;
+.homepage-hotel-slider__item--tablet {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-hotel-slider__item--tablet {
+    display: block;
+  }
+}
+
+.homepage-hotel-slider__item:nth-child(2) {
   margin-right: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .homepage-hotel-slider__item:not(:last-child) {
+    margin-right: 34px;
+  }
+}
+
+.homepage-hotel__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
 }
 
 .homepage-hotel-slider__img {
   margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-hotel-slider__img {
+    margin: 0;
+  }
 }
 
 .homepage-hotel-slider-list {
