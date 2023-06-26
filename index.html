@@ -16,6 +16,7 @@
   <header class="header">
     <div class="container">
       <div class="nav-header">
+
         <a class="header-logo" href="./index.html">MIMIHO</a>
 
         <ul class="nav-list">
@@ -36,6 +37,30 @@
                 <use class="icon-phone" href="./images/symbol-defs.svg#icon-Phone"></use>
               </svg>
               <span class="nav-list__number">066 849 10 89</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="hero-social position-tablet">
+          <li class="hero-social__item">
+            <a href="">
+              <svg class="hero-social__svg">
+                <use href="./images/symbol-defs.svg#icon-instagram-hero"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-social__item">
+            <a href="">
+              <svg class="hero-social__svg">
+                <use href="./images/symbol-defs.svg#icon-facebook-hero"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero-social__item">
+            <a href="">
+              <svg class="hero-social__svg">
+                <use href="./images/symbol-defs.svg#icon-telegram"></use>
+              </svg>
             </a>
           </li>
         </ul>
@@ -93,7 +118,7 @@
 
 
 
-        <ul class="hero-social">
+        <ul class="hero-social position-desktop">
           <li class="hero-social__item">
             <a href="">
               <svg class="hero-social__svg">
@@ -418,33 +443,42 @@
 
         <div class="homepage-hotel__container">
 
-           <ul class="homepage-hotel-slider">
-          <li class="homepage-hotel-slider__item homepage-hotel-slider__item--tablet">
-            <picture>
-              <source srcset="./images/tablet/slider-foto-tablet.jpg 1x, ./images/tablet/slider-foto-tablet@2x.jpg 2x" type="image/jpeg">
-              <source srcset="./images/tablet/slider-foto-tablet.webp 1x, ./images/tablet/slider-foto-tablet@2x.webp 2x" type="image/webp">
-              <img srcset="./images/tablet/slider-foto-tablet.jpg" alt="">
-            </picture>
-          </li>
-          <li class="homepage-hotel-slider__item">
-            <picture>
-            <source srcset="./images/Frame 25.webp 1x, ./images/Frame 25@2x.webp 2x" media="(max-width: 1023px)" type="image/webp">
-            <source srcset="./images/Frame 25.jpg 1x, ./images/Frame 25@2x.jpg 2x" media="(max-width: 1023px)" type="image/jpg">
-            <source srcset="./images/tablet/slider-foto-tablet-2.jpg 1x, ./images/tablet/slider-foto-tablet-2@2x.jpg 2x" media="(min-width: 1024px)" type="image/jpeg">
-            <source srcset="./images/tablet/slider-foto-tablet-2.webp 1x, ./images/tablet/slider-foto-tablet-2@2x.webp 2x" media="(min-width: 1024px)" type="image/webp">
-            <img class="homepage-hotel-slider__img" src="./images/Frame 25.jpg" alt="">
-          </picture>
-        </li>
-          <li class="homepage-hotel-slider__item">
-            <picture>
-            <source srcset="./images/Frame 26.webp 1x, ./images/Frame 26@2x.webp 2x" type="image/webp">
-            <source srcset="./images/Frame 26.jpg 1x, ./images/Frame 26@2x.jpg 2x" type="image/jpg">
-            <img class="homepage-hotel-slider__picture" src="./images/Frame 26.jpg" alt="">
-          </picture>
-          </li>
-        </ul>
+          <ul class="homepage-hotel-slider">
+            <li class="homepage-hotel-slider__item homepage-hotel-slider__item--tablet">
+              <picture>
+                <source srcset="./images/tablet/slider-foto-tablet.jpg 1x, ./images/tablet/slider-foto-tablet@2x.jpg 2x"
+                  type="image/jpeg">
+                <source
+                  srcset="./images/tablet/slider-foto-tablet.webp 1x, ./images/tablet/slider-foto-tablet@2x.webp 2x"
+                  type="image/webp">
+                <img srcset="./images/tablet/slider-foto-tablet.jpg" alt="">
+              </picture>
+            </li>
+            <li class="homepage-hotel-slider__item">
+              <picture>
+                <source srcset="./images/Frame 25.webp 1x, ./images/Frame 25@2x.webp 2x" media="(max-width: 1023px)"
+                  type="image/webp">
+                <source srcset="./images/Frame 25.jpg 1x, ./images/Frame 25@2x.jpg 2x" media="(max-width: 1023px)"
+                  type="image/jpg">
+                <source
+                  srcset="./images/tablet/slider-foto-tablet-2.jpg 1x, ./images/tablet/slider-foto-tablet-2@2x.jpg 2x"
+                  media="(min-width: 1024px)" type="image/jpeg">
+                <source
+                  srcset="./images/tablet/slider-foto-tablet-2.webp 1x, ./images/tablet/slider-foto-tablet-2@2x.webp 2x"
+                  media="(min-width: 1024px)" type="image/webp">
+                <img class="homepage-hotel-slider__img" src="./images/Frame 25.jpg" alt="">
+              </picture>
+            </li>
+            <li class="homepage-hotel-slider__item">
+              <picture>
+                <source srcset="./images/Frame 26.webp 1x, ./images/Frame 26@2x.webp 2x" type="image/webp">
+                <source srcset="./images/Frame 26.jpg 1x, ./images/Frame 26@2x.jpg 2x" type="image/jpg">
+                <img class="homepage-hotel-slider__picture" src="./images/Frame 26.jpg" alt="">
+              </picture>
+            </li>
+          </ul>
 
-        <ul class="homepage-order ">
+          <ul class="homepage-order ">
             <li class="homepage-order__item">
               <button class="homepage-order__button" type="button">Забронювати столик</button>
             </li>
@@ -454,11 +488,11 @@
           </ul>
 
         </div>
-        
 
-         
 
-       
+
+
+
 
         <ul class="homepage-hotel-slider-list  homepage-hotel-slider-list--position">
           <li class="homepage-slider__item">
@@ -499,7 +533,7 @@
               <span>Ресторан</span>
             </li>
             <li class="location-contacts__item location-contacts__item--size tablet-version">
-            
+
               <svg class="location-contacts__svg" width="12px" height="20px">
                 <use href="./images/symbol-defs.svg#icon-Phone"></use>
               </svg>
@@ -508,7 +542,7 @@
             <li class="location-list__item">
               <span>Готель</span>
             </li>
-             <li class="location-contacts__item tablet-version">
+            <li class="location-contacts__item tablet-version">
               <svg class="location-contacts__svg" width="12px" height="20px">
                 <use href="./images/symbol-defs.svg#icon-Phone"></use>
               </svg>
@@ -520,7 +554,7 @@
 
           <ul class="location-contacts">
             <li class="location-contacts__item location-contacts__item--size">
-            
+
               <svg class="location-contacts__svg" width="12px" height="20px">
                 <use href="./images/symbol-defs.svg#icon-Phone"></use>
               </svg>
@@ -582,7 +616,7 @@
             <ul class="homepage-footer-social">
               <li class="homepage-footer-social__item">
                 <a class="homepage-footer-social__link" href="">
-                  <span class="homepage-footer-social__text" >Instagram</span>
+                  <span class="homepage-footer-social__text">Instagram</span>
                   <svg class="homepage-footer__svg" width="24px" height="24px">
                     <use href="./images/symbol-defs.svg#icon-instagram-hero"></use>
                   </svg>
@@ -590,7 +624,7 @@
               </li>
               <li class="homepage-footer-social__item">
                 <a class="homepage-footer-social__link" href="">
-                  <span class="homepage-footer-social__text" >Facebook</span>
+                  <span class="homepage-footer-social__text">Facebook</span>
                   <svg class="homepage-footer__svg" width="24px" height="24px">
                     <use href="./images/symbol-defs.svg#icon-facebook-hero"></use>
                   </svg>
@@ -598,7 +632,7 @@
               </li>
               <li class="homepage-footer-social__item">
                 <a class="homepage-footer-social__link" href="">
-                  <span class="homepage-footer-social__text" >Telegram</span>
+                  <span class="homepage-footer-social__text">Telegram</span>
                   <svg class="homepage-footer__svg" width="24px" height="24px">
                     <use href="./images/symbol-defs.svg#icon-telegram"></use>
                   </svg>

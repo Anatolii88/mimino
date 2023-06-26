@@ -11,3 +11,16 @@ margin-right: 20px;
   height: 24px;
   fill: var(--border-navigation-color);
 }
+
+.position-desktop{
+@media screen and (min-width: 1280px){
+  display: none;
+}
+};
+
+.position-tablet{
+  display: none;
+  @media screen and (min-width: 1280px){
+display: flex;
+  }
+}
