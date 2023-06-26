@@ -19,8 +19,12 @@ font-family: 'Film P3';
   line-height: 43px;
   letter-spacing: 0.3em;
   color: var(--home-restorane-title-color);
+
   @media screen and (min-width: 1024px){
     margin-bottom: 8px;
+      font-size: 64px;
+      line-height: 69px;
+      letter-spacing: 0.3em;
   }
 }
 
@@ -35,6 +39,9 @@ font-family: 'Montserrat';
   color: var(--text-description-room);
   @media screen and (min-width: 1024px){
     margin-bottom: 52px;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
   }
 }
 
@@ -47,6 +54,7 @@ margin-bottom: 16px;
 
 @media screen and (min-width: 1024px){
   justify-content: flex-start;
+  margin-bottom: 0;
 }
 }
 
@@ -64,6 +72,12 @@ margin-bottom: 16px;
   margin-bottom: 32px;
   @media screen and (min-width: 1024px){
     margin-bottom: 8px;
+    font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
   }
 }
 
@@ -117,6 +131,7 @@ margin-bottom: 16px;
     line-height: 17px;
     letter-spacing: 0.02em;
     color: var(--home-restorane-title-color);
+   
 }
 
 .location-contacts__link--position{
@@ -155,6 +170,7 @@ margin-bottom: 16px;
     color: var(--home-restorane-title-color);
     @media screen and (min-width: 1024px){
       width: 233px;
+      
     }
 }
 
@@ -167,7 +183,7 @@ margin-bottom: 16px;
   @media screen and (min-width: 1024px){
 
   position: absolute;
-  top: 69px;
+  top: 75px;
   left: 500px;
   width: 535px;
   height: 412px;

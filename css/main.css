@@ -1134,6 +1134,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .text-container {
+    margin-bottom: 8px;
     text-align: right;
   }
 }
@@ -1148,6 +1149,13 @@ img {
   letter-spacing: 0.3em;
   color: var(--logo-color);
 }
+@media screen and (min-width: 1024px) {
+  .homepage-hotel__title {
+    margin-bottom: 16px;
+    font-size: 64px;
+    letter-spacing: 19.2px;
+  }
+}
 
 .homepage-hotel__subtitle {
   margin-bottom: 20px;
@@ -1158,6 +1166,14 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+}
+@media screen and (min-width: 1024px) {
+  .homepage-hotel__subtitle {
+    margin-right: 10px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    letter-spacing: 0.48px;
+  }
 }
 
 .homepage-hotel__text {
@@ -1175,7 +1191,9 @@ img {
 @media screen and (min-width: 1024px) {
   .homepage-hotel__text {
     width: 549px;
-    margin-left: 250px;
+    margin-left: 220px;
+    font-size: 16px;
+    letter-spacing: 0.32px;
   }
 }
 
@@ -1186,6 +1204,11 @@ img {
   margin-left: -15px;
   margin-right: 32px;
   margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .homepage-hotel-slider {
+    margin-bottom: 0px;
+  }
 }
 
 .homepage-hotel-slider__item--tablet {
@@ -1282,6 +1305,9 @@ img {
 @media screen and (min-width: 1024px) {
   .homepage-location__title {
     margin-bottom: 8px;
+    font-size: 64px;
+    line-height: 69px;
+    letter-spacing: 0.3em;
   }
 }
 
@@ -1298,6 +1324,9 @@ img {
 @media screen and (min-width: 1024px) {
   .homepage-location__text {
     margin-bottom: 52px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -1318,6 +1347,7 @@ img {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    margin-bottom: 0;
   }
 }
 
@@ -1337,6 +1367,12 @@ img {
 @media screen and (min-width: 1024px) {
   .location-list__item:not(:last-child) {
     margin-bottom: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -1450,7 +1486,7 @@ img {
 @media screen and (min-width: 1024px) {
   .location_img {
     position: absolute;
-    top: 69px;
+    top: 75px;
     left: 500px;
     width: 535px;
     height: 412px;
@@ -1509,6 +1545,12 @@ img {
   letter-spacing: 0.3em;
   color: var(--yellow-color);
 }
+@media screen and (min-width: 1024px) {
+  .homepage-footer__logo {
+    font-size: 64px;
+    letter-spacing: 19.2px;
+  }
+}
 
 .homepage-footer-list {
   margin-bottom: 32px;
@@ -1531,6 +1573,11 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--yellow-color);
+}
+@media screen and (min-width: 1024px) {
+  .homepage-footer-list__link {
+    letter-spacing: 0.4px;
+  }
 }
 
 .homepage-footer-social {
@@ -1567,6 +1614,10 @@ img {
   .homepage-footer-social__text {
     display: inline-block;
     margin-right: 18px;
+    font-size: 16px;
+    font-family: Montserrat;
+    letter-spacing: 0.32px;
+    color: var(--yellow-color);
   }
 }
 

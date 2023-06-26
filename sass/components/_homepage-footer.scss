@@ -27,6 +27,10 @@
     line-height: 43px;
     letter-spacing: 0.3em;
     color: var(--yellow-color);
+    @media screen and (min-width: 1024px){
+      font-size: 64px;
+        letter-spacing: 19.2px;
+    }
 }
 
 .homepage-footer-list{
@@ -48,6 +52,9 @@ margin-bottom: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--yellow-color);
+    @media screen and (min-width: 1024px){
+        letter-spacing: 0.4px;
+    }
 }
 
 .homepage-footer-social{
@@ -74,6 +81,10 @@ margin-bottom: 16px;
   @media screen and (min-width: 1024px){
     display: inline-block;
     margin-right: 18px;
+    font-size: 16px;
+      font-family: Montserrat;
+      letter-spacing: 0.32px;
+      color: var(--yellow-color);
   }
 }
 
